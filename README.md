@@ -1,7 +1,3 @@
-Sure! Here's the full README.md file for your E-Commerce AI (Version 1) project — fully formatted and ready to use:
-
-
-
 # 🚀 E-Commerce AI — Version 1
 
 An intelligent, interactive web app for analyzing your e-commerce data using natural language. Ask questions like a human. Get insights like a pro. 💡
