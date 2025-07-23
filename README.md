@@ -52,184 +52,56 @@ Built with **FastAPI**, powered by **Google Gemini LLM**, and designed for insta
 ```bash
 git clone https://github.com/<your-username>/<repo-name>.git
 cd <repo-name>
-
-
-
 📦 2. Install Dependencies
-
-
 pip install -r requirements.txt
-
-
-
 🔐 3. Set Up Gemini API Key
-
-
 Create a .env file in the root directory with your Gemini API key:
-
-
 GEMINI_API_KEY=your_gemini_api_key_here
-
-
-
 📂 4. Prepare Your Data
-
-
 Place the following CSV files in the project root:
-
-
-
-
 ad_sales.csv
-
-
-
-
 total_sales.csv
-
-
-
-
 eligibility.csv
-
-
-
-
-
-
 ✅ These files will automatically be loaded into ecommerce.db on app startup.
 
-
-
-
 ▶️ 5. Run the App
-
-
 uvicorn main:app --reload
-
-
-
 Then open your browser and navigate to:
-
-
 http://localhost:8000
 
-
-
 💡 Usage
-
-
-
-
 Type your question in natural language.
-
 Examples:
-
-
-
-
 “What is the total sales amount?”
-
-
-
-
 “Calculate the RoAS”
-
-
-
-
 “Which product had the highest CPC?”
-
-
-
-
 “Show ad sales over time”
 
-
-
-
-
-
 Click Submit to get the answer.
-
-
-
-
 Click Visualize to generate a chart.
-
-
-
-
-
 
 ✅ The app will handle SQL generation, query execution, and display — all automatically.
 
-
-
-
-
 🧪 Example Questions
-
-
-
-
 What is the total sales amount?
-
-
-
-
 Calculate the RoAS (Return on Ad Spend)
-
-
-
-
 Which product had the highest CPC?
-
-
-
-
 Show ad sales over time
-
-
-
-
 What's the average CPC by category?
 
-
-
-
-
-📸 Screenshots
-
-
-
-
-(Add screenshots or GIFs of the UI here if available for better visualization)
-
-
-
-
-
 📜 License
-
-
 This project is licensed under the MIT License.
-
 Feel free to use, modify, and share it freely.
 
 
 
 🤝 Contributing
-
-
 Contributions are welcome!
-
 A full contribution guide is coming soon — stay tuned.
 
 
 
 🗂️ Project Structure (Optional)
-
 
 ecommerce-ai/
 │
@@ -246,16 +118,8 @@ ecommerce-ai/
 └── eligibility.csv        # Sample data
 
 
-
-
 💬 Feedback
-
-
 Have suggestions or feedback?
-
 Feel free to open an issue or contact the maintainer.
-
-
-
 Made with ❤️ for data-driven decision-makers.
 
